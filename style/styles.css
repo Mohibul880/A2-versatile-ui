@@ -491,3 +491,49 @@ input::placeholder {
     font-size: var(--h5);
     color: rgba(255, 255, 255, 0.6);
   }
+  /* footer */
+footer {
+    padding: 0 10rem;
+    background-color: rgb(51, 51, 51);
+    padding-top: 4rem;
+  }
+  
+  .footer_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+  }
+  
+  .footer_content .left_content h1 {
+    font-size: var(--h1);
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    margin: 0;
+  }
+  
+  .footer_content .left_content p,
+  .footer_content .middle_content p,
+  .footer_content .right_content p,
+  footer > p {
+    font-size: var(--h5);
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 2.2rem;
+    font-weight: 100;
+  }
+  
+  footer > p {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin: 0;
+  }
+  
+  .footer_content h4 {
+    font-size: var(--h4);
+  }
+  
+  footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  

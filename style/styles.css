@@ -265,3 +265,44 @@ nav span {
     line-height: 2.2rem;
     font-weight: 100;
   }
+
+  /* section run */
+
+.run {
+    display: flex;
+    gap: 12rem;
+    padding: 6rem;
+    margin: 0 10rem;
+    background-color: rgb(51, 51, 51);
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    box-shadow: 1px 1px 2px rgba(107, 107, 107, 0.2);
+  }
+  
+  .run .run_content h2 {
+    font-size: var(--h1);
+    margin: 0;
+  }
+  
+  .run .run_content p {
+    font-size: var(--h5);
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 2.5rem;
+    font-weight: 100;
+    margin-top: 3.5rem;
+  }
+  
+  .run .run_content .btn {
+    margin-top: 4rem;
+    padding: 1.2rem 4.5rem;
+  }
+  
+  .run .run_img {
+    width: 48rem;
+     
+}
+
+.run .run_img img {
+  width: 100%;
+  border-radius: 1rem;
+}
